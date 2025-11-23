@@ -38,31 +38,29 @@ The system demonstrates a complete workflow including:
 ---
 
 ## Project Structure
-
+```
 SmartClinicAppointmentSystem/
 │
-├── src/
-│   ├── java/
-│   │   ├── DBUtil.java
-│   │   ├── SetupServlet.java
-│   │   ├── PatientDAO.java
-│   │   ├── DoctorDAO.java
-│   │   ├── AppointmentDAO.java
-│   │   └── servlets…
-│   │
-│   └── web/
-│       ├── patientForm.jsp
-│       ├── appointmentForm.jsp
-│       ├── success.jsp
-│       ├── doctorAppointments.jsp
-│       └── patientAppointments.jsp
+├─ src/
+│  ├─ main/
+│  │  ├─ java/
+│  │  │  ├─ dao/
+│  │  │  ├─ model/
+│  │  │  ├─ servlet/
+│  │  │  └─ util/ (DBUtil.java, etc.)
+│  │  └─ webapp/
+│  │     ├─ index.jsp
+│  │     ├─ patientForm.jsp
+│  │     ├─ appointmentForm.jsp
+│  │     ├─ success.jsp
+│  │     ├─ doctorAppointments.jsp
+│  │     └─ patientAppointments.jsp
 │
-├── screenshots/
-│   ├── database/
-│   ├── output/
-│   └── charts/
-│
-├── README.md
+├─ pom.xml
+├─ nb-configuration.xml
+├─ SmartClinic.zip
+└─ README.md
+```
 ---
 
 ## Database
