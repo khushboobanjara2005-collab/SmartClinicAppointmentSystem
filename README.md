@@ -105,7 +105,7 @@ These visualizations were included in the project report.
 ## Author
 
 Khushboo Banjara
-BCA undergraduate Student
+BCA Student
 
 ---
 
